@@ -5,3 +5,5 @@ learning data analysis base on Python
 ### 数据预处理
 * 异常数据检测
 * 插值
+* 逻辑回归
+* bp网络分类器
