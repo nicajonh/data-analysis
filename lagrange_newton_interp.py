@@ -2,8 +2,8 @@
 import pandas as pd #导入数据分析库Pandas
 from scipy.interpolate import lagrange #导入拉格朗日插值函数
 
-inputfile = '../data/catering_sale.xls' #销量数据路径
-outputfile = '../tmp/sales.xls' #输出数据路径
+inputfile = 'data/catering_sale.xls' #销量数据路径
+outputfile = 'tmp/sales.xls' #输出数据路径
 
 data = pd.read_excel(inputfile) #读入数据
 data[u'销量'][(data[u'销量'] < 400) | (data[u'销量'] > 5000)] = None #过滤异常值，将其变为空值
