@@ -7,4 +7,4 @@ learning data analysis base on Python
 * 插值
 * 逻辑回归
 * bp网络分类器
-* 决策
+* 决策树
