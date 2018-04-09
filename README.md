@@ -8,4 +8,5 @@ learning data analysis base on Python
 * 逻辑回归
 * bp网络分类器
 * 决策树
+* 协同过滤
 
